@@ -1,5 +1,9 @@
+
 import { Observer, Observable, Subject } from "rxjs";
 import { take, first, map } from "rxjs/operators";
+
+// How come the JS code runs in a TS project?
+//TypeScript is a super script of JavaScript and anything written in TypeScript essentially boils down and simplifies into JavaScript //internally. That is why code written in JavaScript will compile as TypeScript code.
 
 class Work {
   //TS TODO: you will need to declare a 'broadcaster' with a type and access modified.
